@@ -48,4 +48,25 @@ To install
 ```bash
 sudo make install
 ```
+The program should now be installed and in your path.
+
+To display the AMVERSEAS ASCII format with the included profile.
+```bash
+bin2ascii profile.bin
+```
+
+To display the AMVERSEAS EDF format with the included profile.
+```bash
+bin2ascii profile.bin 1
+```
+If no salinity is provided then a salinity of 35.0 is used to calculate sound velocities.<br>
+To specify a salinity of 34.4
+```bash
+bin2ascii profile.bin 1 34.4
+```
+To display the AMVERSEAS ASCII NDC format with the included profile.
+```bash
+bin2ascii profile.bin 2
+```
+
 
