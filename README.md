@@ -21,13 +21,16 @@ DOC or the United States Government.
 To compile and use this program you need to have the [xbtbinfileutils](https://github.com/pedrolpena/xbtbinfileutils) library installed.<br>
 If you don't have it please click on the above link and follow the instructions to compile and install.
 
-To compile under debian based linux.
-install make and g++
+To clone and compile under debian based linux.
+install make cmake git and g++
 ```bash
 sudo apt update
-sudo apt install make cmake g++
+sudo apt install make cmake g++ git
 ```
-
+Clone the repository 
+```bash
+git clone https://github.com/pedrolpena/xbtbin2ascii.git
+```
 Create a seperate make project, create a build directory and a unix sub directory and run cmake.
 
 ```bash
